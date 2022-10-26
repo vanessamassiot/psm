@@ -174,16 +174,14 @@ img {
   height: 450px;
   position: absolute;
   display: flex;
-  align-content: center;
-  top: 0;
-  left: 100%;
+  margin: auto;
   z-index: 10;
-  transition: left 0s 0.5s;
+  transition: top 0s 0.5s;
 }
 [id^="slide"]:checked + .slide-img {
   left: 0;
   z-index: 100;
-  transition: left 0.5s ease-out;
+  transition: top 0.5s ease-out;
 }
 
 
