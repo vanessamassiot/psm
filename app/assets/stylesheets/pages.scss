@@ -3,18 +3,20 @@
 
 nav { 
 	position: relative;
+	heigth : 300px;
 }
 
 .container-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	heigth : 200px;
+	
 }
 
 .img-circle {
 	display: block;
   	position: absolute;
+  	margin: 0 auto;
   	left: calc((100% - 150px) / 2);
   	z-index: 100000;
 	width: 150px;
