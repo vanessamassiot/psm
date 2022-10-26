@@ -172,8 +172,9 @@ img {
 }
 .slide-img {
   height: 450px;
-  position: relative;
-  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 100%;
   z-index: 10;
   transition: left 0s 0.5s;
 }
