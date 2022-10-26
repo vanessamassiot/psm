@@ -168,10 +168,12 @@ img {
 }
 .slide-input{
   opacity: 0;
-  position: absolute;
-  left: 100px;
-  text-align: center;
 }
+
+input {
+	text-align: center;
+}
+
 .slide-img {
   height: 450px;
   position: absolute;
