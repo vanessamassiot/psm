@@ -8,9 +8,12 @@
 }
 
 .img-circle {
-	display: none;
+	justify-content: center;
 	width: 100px;
 	border-radius: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
 }
 
 
