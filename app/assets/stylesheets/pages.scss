@@ -73,6 +73,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding: 5px;
 	flex: 0 0 auto;
 	width: calc(50% - 20px);
 	margin-left: 20px;
@@ -139,7 +140,6 @@ img {
   background-color: rgba(0,0,0, 0.7);
   position: relative;
   margin: auto;
-  padding: 5px;
   height: 500px;
   overflow: hidden;
 }
