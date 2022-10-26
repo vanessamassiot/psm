@@ -1,7 +1,7 @@
 
 /* BARRE DE NAVIGATION */
 
-/* nav{ position: fixed;} */
+nav{ position: relative;}
 
 .container-nav {
 	display: flex;
@@ -12,12 +12,9 @@
 .img-circle {
 	position: absolute;
 	text-align: center;
-	justify-content: center;
 	width: 200px;
 	border-radius: 100%;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
+	border: 2px solid black;
 }
 
 
