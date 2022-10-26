@@ -90,19 +90,20 @@ nav {
 }
 
 .card a {
-	background-color: black;
-  	color: white;
+	background-color: white;
+  	color: black;
   	padding: 5px 15px;
 	text-align: center;
 	text-decoration: none;
   	display: block;
   	position: absolute;
-  	margin: 0 auto;
+  	ritght: 0 px;
+  	/* margin: 0 auto;*/
 }
 
 
 .card a:hover, a:active {
-  background-color: black;
+  background-color: white;
 }
 
 
