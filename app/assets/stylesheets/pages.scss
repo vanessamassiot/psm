@@ -168,11 +168,13 @@ img {
 }
 .slide-input{
   opacity: 0;
-  
+
 }
 .slide-img {
   height: 450px;
   position: absolute;
+  display: flex;
+  align-content: center;
   top: 0;
   left: 100%;
   z-index: 10;
