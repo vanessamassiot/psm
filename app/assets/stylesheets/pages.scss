@@ -94,7 +94,10 @@ nav {
   	padding: 5px 15px;
 	text-align: center;
 	text-decoration: none;
-  	flex: 0 0 auto;
+  	display: block;
+  	position: absolute;
+  	margin: 0 auto;
+  	rigth: 50px;
 }
 
 
