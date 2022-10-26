@@ -1,3 +1,19 @@
+
+/* BARRE DE NAVIGATION */
+
+.container-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -20,6 +36,7 @@ h1 {
   grid-column: 3;
   grid-row: 2 / 3;
 }
+
 
 
 .container {
