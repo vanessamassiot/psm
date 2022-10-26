@@ -70,7 +70,7 @@ nav {
 
 .container-grid-2 > * {
 	flex: 0 0 auto;
-	width: (50% - 20px);
+	width: calc(50% - 20px);
 	margin-left: 20px;
 }
 
