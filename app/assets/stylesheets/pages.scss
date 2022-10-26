@@ -78,6 +78,7 @@ nav {
 	margin-left: 20px;
 	background-color: #9E9E9E;
 	margin-top: 10px;
+	position: absolute;
 }
 
 .img-cards{
@@ -96,7 +97,7 @@ nav {
 	text-decoration: none;
   	display: block;
   	margin: 0 auto;
-  	position: fixed;
+  	position: relative;
   	bottom: 0;
   	right: 0;
 }
