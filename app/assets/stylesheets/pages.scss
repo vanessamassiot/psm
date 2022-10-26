@@ -78,6 +78,7 @@ nav {
 	margin-left: 20px;
 	background-color: #9E9E9E;
 	margin-top: 10px;
+	position: relative;
 }
 
 .img-cards{
@@ -89,7 +90,7 @@ nav {
 }
 
 .card a {
-	background-color: #1F38AF;
+	background-color: black;
   	color: white;
   	padding: 5px 15px;
 	text-align: center;
@@ -101,7 +102,7 @@ nav {
 
 
 .card a:hover, a:active {
-  background-color: #1F38AF;
+  background-color: black;
 }
 
 
