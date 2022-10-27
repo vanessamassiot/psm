@@ -249,8 +249,7 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start; /* center si au milieu verticalement*/
-
-	
+	margin: 10px;
 }
 
 .footer-grid > *{
@@ -261,8 +260,16 @@ footer {
 	flex-grow: 1;
 }
 
+.footer-center {
+	flex-grow: 2;
+}
+
 .footer-right {
 	flex-grow: O;
+}
+
+footer p {
+	color: white;
 }
 
 
