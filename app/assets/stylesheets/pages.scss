@@ -268,8 +268,16 @@ footer {
 	flex-grow: O;
 }
 
-footer p, h2 {
+footer p, h3 {
 	color: white;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+footer h3{
+	font-size: 16px;
 }
 
 
