@@ -213,11 +213,15 @@ footer {
 }
 */
 
+footer i{
+	font-size: 14px;
+}
+
 footer p, h3 {
 	color: white;
 }
 
-footer p, li{
+footer p, footer li{
 	font-size: 12px;
 }
 
