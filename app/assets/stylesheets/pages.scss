@@ -315,40 +315,6 @@ i {
   background-color: rgba(0,0,0, 0.7);
 }
 
-/*
-
-.slide:nth-child(1) {
-  background-image: url("NANI2504.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0,0,0, 0.7);
-}
-
-.slide:nth-child(2) {
-  background-image: url("griffes2.JPG");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0,0,0, 0.7);
-}
-
-.slide:nth-child(3) {
-  background-image: url("griffes3.JPG");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0,0,0, 0.7);
-}
-
-.slide:nth-child(4) {
-  background-image: url("griffes4.JPG");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0,0,0, 0.7);
-}
-*/
 
 .img-griffes:nth-child(1){
 	background-image: url("griffes2.JPG");
@@ -362,6 +328,49 @@ i {
 .img-griffes:nth-child(4){
 	background-image: url("griffes4.JPG");
 }
+
+.img-cilices:nth-child(1){
+	background-image: url("cilices1.JPG");
+}
+.img-cilices:nth-child(2){
+	background-image: url("cilices2.JPG");
+}
+.img-cilices:nth-child(3){
+	background-image: url("cilices3.JPG");
+}
+.img-cilices:nth-child(4){
+	background-image: url("cilices4.JPG");
+}
+
+.img-martinets:nth-child(1){
+	background-image: url("martinets1.JPG");
+}
+.img-martinets:nth-child(2){
+	background-image: url("martinets2.JPG");
+}
+.img-martinets:nth-child(3){
+	background-image: url("martinets3.JPG");
+}
+.img-martinets:nth-child(4){
+	background-image: url("martinets4.JPG");
+}
+
+.img-bijoux:nth-child(1){
+	background-image: url("bijoux1.jpg");
+}
+.img-bijoux:nth-child(2){
+	background-image: url("bijoux2.jpg");
+}
+.img-bijoux:nth-child(3){
+	background-image: url("bijoux3.jpg");
+}
+.img-bijoux:nth-child(4){
+	background-image: url("bijoux4.jpg");
+}
+.img-bijoux:nth-child(5){
+	background-image: url("bijoux5.jpg");
+}
+
 
 
 @-webkit-keyframes slide {
