@@ -313,24 +313,28 @@ i {
 
 .slide:nth-child(1) {
   background-image: url("NANI2504.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #D93B65;
 }
 
 .slide:nth-child(2) {
   background-image: url("griffes2.JPG");
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #037E8C;
 }
 
 .slide:nth-child(3) {
   background-image: url("griffes3.JPG");
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #36BF66;
 }
 
 .slide:nth-child(4) {
   background-image: url("griffes4.JPG");
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #D9D055;
 }
