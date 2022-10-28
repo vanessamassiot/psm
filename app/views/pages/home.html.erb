@@ -55,23 +55,15 @@
 		<h1> Griffes </h1>
 		<div id="trait_dessous"></div>
 		<div class="card-onglet">
-			<div class="slider-container">
-		      <div class="menu">
-		        <label for="slide-dot-1"></label>
-		        <label for="slide-dot-2"></label>
-		        <label for="slide-dot-3"></label>
-		      </div>
-		      
-		      <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-		      <%= image_tag "NANI2504", :class =>"slide-img"%>
-
-		      <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
-		      <%= image_tag "NANI2504", :class =>"slide-img"%>
-		      
-		      <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
-		      <%= image_tag "NANI2504", :class =>"slide-img"%>
-
-		    </div>
+			<div id="slideshow-griffes">
+			  <div class="slide-wrapper">
+			    <div class="slide"></div>
+			    <div class="slide"></div>
+			    <div class="slide"></div>
+			    <div class="slide"></div>
+			    <div class="slide"></div>
+			  </div>
+			</div>
 		    <div class="text-card">
 				<p>
 					Matériaux: Acier/inox.
