@@ -292,7 +292,7 @@ i {
 
 /*!!!!!!!!!!!!!!!! TEST SLIDER !!!!!!!!!!!!!!!!!!!!*/
 
-#slideshow-griffes {
+#slideshow {
   text-align: center;
   overflow: hidden;
   height: 510px;
@@ -309,7 +309,13 @@ i {
   float: left;
   height: 510px;
   width: 728px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0, 0.7);
 }
+
+/*
 
 .slide:nth-child(1) {
   background-image: url("NANI2504.png");
@@ -342,6 +348,20 @@ i {
   background-repeat: no-repeat;
   background-color: rgba(0,0,0, 0.7);
 }
+*/
+
+.img-griffes:nth-child(1){
+	background-image: url("griffes2.JPG");
+}
+.img-griffes:nth-child(2){
+	background-image: url("NANI2504.png");
+}
+.img-griffes:nth-child(3){
+	background-image: url("griffes3.JPG");
+}
+.img-griffes:nth-child(4){
+	background-image: url("griffes4.JPG");
+}
 
 
 @-webkit-keyframes slide {
@@ -353,6 +373,8 @@ i {
   80% {margin-left: -2184px;}
   90% {margin-left: -2184px;}
 }
+
+
 
 
 
