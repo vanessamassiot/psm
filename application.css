@@ -1,0 +1,405 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ /* --- Import Components stylesheets --- */
+ @import url("components/avatar.scss");
+
+/* [...] */
+
+
+ body {
+ 	background-color: white;
+ 	/* background-image: url("https://res.cloudinary.com/vanmassiot/image/upload/v1602852002/vanessakm/BG-boverie_lbnpxm.jpg")*/;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center; 
+    background-attachment: fixed; 
+ 	font-family: monospace;
+ 	font-size: 16px;
+ 	line-height: 1.6;
+ 	color: black;
+ 	margin: 40px;
+ }
+
+/* BARRE DE NAVIGATION */
+
+nav { 
+	position: relative;
+	heigth : 500px;
+}
+
+.container-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	
+}
+.container-nav a {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px;
+ 	font-size: 16px;
+ 	color: black;
+ 	text-decoration: none;
+}
+
+
+.container-nav a:hover{
+	text-decoration: underline;
+}
+
+
+.img-circle {
+	display: block;
+  	position: absolute;
+  	margin: 0 auto;
+  	left: calc((100% - 200px) / 2);
+  	top: -30px;
+  	z-index: 100000;
+	width: 200px;
+	border-radius: 100%;
+	border: 2px solid black;
+	background-color: white;
+}
+
+
+/* BANNER */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: url("banner.gif");
+  /*background-image : url("https://res.cloudinary.com/vanmassiot/image/upload/v1622185879/EVafIL_Logo_c7bwmn.png");*/
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 620px;
+  background-repeat: no-repeat;
+}
+
+/* CARDS */
+
+*{box-sizing: border-box}
+
+.container-grid-2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: -40px;
+	margin-top: 10px;
+}
+
+.container-grid-2 > * {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5px;
+	flex: 0 0 auto;
+	width: calc(50% - 40px);
+	margin-left: 40px;
+	background-color: white;
+	color: black;
+	margin-top: 10px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.img-cards{
+	width: 35%;
+}
+
+.text-card {
+	padding: 10px;
+	width: 65%;
+}
+
+.card h2{
+	font-size: 28px;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+.card p{
+	font-size: 14px;
+}
+
+.card a {
+	background-color: white;
+  	color: black;
+  	padding: 9px 9px;
+	text-align: center;
+	font-size: 10px;
+	border-radius: 100%;
+	text-decoration: none;
+  	display: block;
+  	position: absolute;
+  	margin: 0 auto;
+  	top: 10px;
+  	right: 10px;
+  	z-index: 100000;
+  	width: 60px;
+  	height: 60px;
+  	border: 1px solid black;
+}
+
+
+.card a:hover, a:active {
+  font-weight: bold;
+  font-size: 11px;
+  padding: 8px 8px;
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!! ONGLETS !!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.onglets {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.onglets h1 {
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#trait_dessus
+{
+	border-top: 3px solid #000;
+	width : 700px;
+	display: block;
+	position: absolute;
+  	margin: 0 auto;
+  	top: 5px;
+  	left: 10px;
+  	z-index: 100000;
+} 
+#trait_dessous{
+	border-top: 3px solid #000;
+	width : 700px;
+	display: block;
+	position: absolute;
+  	margin: 0 auto;
+  	top: 90px;
+  	right: 10px;
+  	z-index: 100000;
+}
+
+/*!!!!!!!!!!!!! A PROPOS !!!!!!!!!!!!!!*/
+.ecart {
+	margin-bottom: 20px;
+}
+
+/*!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!*/
+
+footer {
+	background-color: rgba(0,0,0, 0.7);
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
+}
+
+.footer-grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start; /* center si au milieu verticalement*/
+	margin: 10px;
+}
+
+.fa-ul {
+	color: white;
+}
+
+.fa-li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.footer-grid > *{
+	margin: 10px;
+	
+}
+
+/*.footer-left {
+	flex-grow: 0;
+}
+
+.footer-center {
+	flex-grow: 1;
+}
+
+.footer-right {
+	flex-grow: 2;
+}
+*/
+
+footer i{
+	font-size: 14px;
+}
+
+footer p, h3 {
+	color: white;
+}
+
+footer p, footer li{
+	font-size: 12px;
+}
+
+footer h3{
+	font-size: 14px;
+
+}
+
+i {
+	color: white;
+}
+
+
+/*!!!!!!!!!!!!!!!! SLIDER !!!!!!!!!!!!!!!!!!!!*/
+
+.text-onglet{
+	display: flex;
+	justify-content: center;
+	width: 728px;
+  	margin: 0 auto;
+}
+	
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+  border: 0.5px solid black;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 15s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+.img-griffes:nth-child(1){
+	background-image: url("griffes2.JPG");
+}
+.img-griffes:nth-child(2){
+	background-image: url("NANI2504.png");
+}
+.img-griffes:nth-child(3){
+	background-image: url("griffes3.JPG");
+}
+.img-griffes:nth-child(4){
+	background-image: url("griffes4.JPG");
+}
+
+.img-cilices:nth-child(1){
+	background-image: url("cilices1.jpg");
+}
+.img-cilices:nth-child(2){
+	background-image: url("cilices2.jpg");
+}
+.img-cilices:nth-child(3){
+	background-image: url("cilices3.jpg");
+}
+.img-cilices:nth-child(4){
+	background-image: url("cilices4.jpg");
+}
+
+.img-martinets:nth-child(1){
+	background-image: url("martinets1.JPG");
+}
+.img-martinets:nth-child(2){
+	background-image: url("martinets2.JPG");
+}
+.img-martinets:nth-child(3){
+	background-image: url("martinets3.JPG");
+}
+.img-martinets:nth-child(4){
+	background-image: url("martinets4.JPG");
+}
+
+.img-bijoux:nth-child(1){
+	background-image: url("bijoux1.jpg");
+}
+.img-bijoux:nth-child(2){
+	background-image: url("bijoux2.jpg");
+}
+.img-bijoux:nth-child(3){
+	background-image: url("bijoux3.jpg");
+}
+.img-bijoux:nth-child(4){
+	background-image: url("bijoux4.jpg");
+}
+.img-bijoux:nth-child(5){
+	background-image: url("bijoux5.jpg");
+}
+
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+	font-size: 22px;
+}
+
